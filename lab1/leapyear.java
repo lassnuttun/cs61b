@@ -1,4 +1,3 @@
-package lab1;
 
 public class leapyear {
     public static boolean isLeapYear(int year) {
