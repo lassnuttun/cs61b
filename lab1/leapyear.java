@@ -9,10 +9,10 @@ public class leapyear {
     }
 
     public static void main(String[] args) {
-        if (isLeapYear(Integer.parseInt(args[1]))) {
-            System.out.println(Integer.parseInt(args[1]) + " is a leap year.");
+        if (isLeapYear(Integer.parseInt(args[0]))) {
+            System.out.println(Integer.parseInt(args[0]) + " is a leap year.");
         } else {
-            System.out.println(Integer.parseInt(args[1]) + " is not a leap year.");
+            System.out.println(Integer.parseInt(args[0]) + " is not a leap year.");
         }
     }
 }
