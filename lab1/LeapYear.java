@@ -7,10 +7,12 @@ public class LeapYear {
     }
 
     public static void main(String[] args) {
-        if (isLeapYear(Integer.parseInt(args[0]))) {
-            System.out.println(Integer.parseInt(args[0]) + " is a leap year.");
-        } else {
-            System.out.println(Integer.parseInt(args[0]) + " is not a leap year.");
+        for (int i = 0; i < args.length; i++) {
+            if (isLeapYear(Integer.parseInt(args[i]))) {
+                System.out.println(Integer.parseInt(args[i]) + " is a leap year.");
+            } else {
+                System.out.println(Integer.parseInt(args[i]) + " is not a leap year.");
+            }
         }
     }
 }
